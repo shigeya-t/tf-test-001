@@ -1,5 +1,3 @@
-variable "sysdig_api_token" {}
-
 provider "google" {
   project = "sysdig"
   region = "asia-northeast1"
