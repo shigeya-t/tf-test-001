@@ -1,11 +1,11 @@
 provider "google" {
-  project = "sysdig"
+  project = "sysdig-347707"
   region = "asia-northeast1"
   credentials = var.gcp-creds
 }
 
 provider "google-beta" {
-  project = "sysdig"
+  project = "sysdig-347707"
   region = "asia-northeast1"
   credentials = var.gcp-creds
 }
