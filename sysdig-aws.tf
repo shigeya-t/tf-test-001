@@ -8,6 +8,7 @@ terraform {
 
 variable "aws_access_key" {}
 variable "aws_secret_key" {}
+variable "gcp-cred" {}
 variable "sysdig_api_token" {}
 
 provider "sysdig" {
