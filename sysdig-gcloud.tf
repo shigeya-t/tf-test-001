@@ -7,6 +7,7 @@ provider "google" {
 provider "google-beta" {
   project = "sysdig"
   region = "asia-northeast1"
+  credentials = var.gcp-creds
 }
 
 module "secure-for-cloud_example_single-project" {
