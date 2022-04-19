@@ -1,6 +1,9 @@
+variable "gcp-cred" {}
+
 provider "google" {
   project = "sysdig"
   region = "asia-northeast1"
+  credentials = var.gcp-creds
 }
 
 provider "google-beta" {
